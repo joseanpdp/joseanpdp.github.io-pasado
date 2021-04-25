@@ -1,0 +1,43 @@
+body {
+  background-size: 1400px 760px;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid{
+  display: grid;
+  width: 132%;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  gap: 0.5em;
+}
+
+.a{
+  background-color: darkcyan;
+  /*width: 31%;*/
+  padding: 10px;
+  color: white;
+}
+
+img{
+  width: 100%;
+}
+
+.hijo1{
+  background-color: rgba(0, 126, 126, 0.2);
+  border: solid rgb(0 ,90, 100) 5px;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 10px;
+  color: white;
+  text-align: 20px;
+}
+
+p {
+    text-align: center;
+    color: rgb(41, 178, 194);
+    font-size: 20px;
+}
